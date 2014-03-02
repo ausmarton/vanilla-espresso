@@ -1,10 +1,10 @@
-// var app, port;
+var app, port;
 
-// app = 
-require('./js/app');
+app = require('./js/app');
 
-// port = app.port;
+//needs to be moved to some config
+port = 3000;
 
-// app.listen(port, function() {
-//   return console.log("Listening on " + port + "\nPress CTRL-C to stop server.");
-// });
+app.listen(port, function() {
+  return console.log("Listening on " + port + "\nPress CTRL-C to stop server.");
+});
