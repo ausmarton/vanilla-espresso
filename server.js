@@ -1,6 +1,6 @@
 var app, port;
 
-app = require('./js/app');
+app = require('./.app/app');
 
 //needs to be moved to some config
 port = 3000;
