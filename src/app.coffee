@@ -26,4 +26,6 @@ app.use express.errorHandler()  if "development" is app.get("env")
 app.get "/", routes.index
 app.get "/users", user.list
 
-module.exports = http.createServer(app)
+http.createServer(app).listen app.get("port"), ->
+  console.log "Express server listening on port " + app.get("port")
+  return
