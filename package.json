@@ -9,6 +9,7 @@
       "install": "node node_modules/coffee-script/bin/cake build"
   },
   "dependencies": {
+    "coffee-script": "1.6.x",
     "express": "3.4.8",
     "which": "1.0.5",
     "jade": "*"
